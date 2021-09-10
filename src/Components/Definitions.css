@@ -1,0 +1,44 @@
+.subtitle{
+    display: flex;
+    flex-direction: column;
+    font-size:4vh;
+    width: 90%;
+    border: 1.5px solid #666768;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    align-content: center;
+    height:25vh;
+
+}
+.meanings {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Ubuntu', sans-serif;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    height:100%;
+}
+
+.audio{
+    width: 100%;
+    margin-bottom: 2em;
+}
+.dictdef {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+@media (max-width:900px){
+    .meanings{
+    height:100%;
+    }
+    .subtitle{
+        font-size:2.5vh;
+    }
+  }

@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: pink;
+  }
+  .name {
+    font-size: 30px;
+    padding: 10px;
+  }

@@ -1,0 +1,12 @@
+.App{
+  min-height: 100vh;
+  color: #f5f7fa;
+  margin: 0;
+}
+
+.AppContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-evenly;
+}
